@@ -1,6 +1,7 @@
 export default {
   userLoginDetails: {
-    email: 'your email goes in here',
+    email: '',
+    password: '',
   },
   newProfileName: 'Phlos',
 }

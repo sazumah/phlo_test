@@ -8,7 +8,7 @@ describe('Should edit profile page', () => {
   })
 
   it('Should login in user', () => {
-    cy.GoogleSocialLogin()
+    cy.GoogleSocialLogin() //this command can be found in the command.js file
   })
 
   it('Should edit users profile', () => {

@@ -1,10 +1,10 @@
 import { userLoginDetails } from '../fixtures/google-user-data'
 
 Cypress.Commands.add('GoogleSocialLogin', () => {
-  const { email } = userLoginDetails
+  const { email, password } = userLoginDetails
   const socialLoginOptions = {
     username: `${email}`,
-    password: 'type your password here ....',
+    password: `${password}`,
     loginUrl: 'https://twitter.com/home',
     headless: false,
     logs: true,
